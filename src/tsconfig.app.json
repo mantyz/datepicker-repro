@@ -1,8 +1,4 @@
 {
-  "angularCompilerOptions": {
-    "fullTemplateTypeCheck": true,
-    "preserveWhitespaces": false
-  },
   "compilerOptions": {
     "baseUrl": "./",
     "module": "es2015",

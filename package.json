@@ -5,8 +5,8 @@
   "main": "./dist/index.html",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve --aot --prod",
-    "build": "ng build --aot --prod && node server/run.js",
+    "start": "ng serve --prod",
+    "build": "ng build --prod && node server/run.js",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
@@ -33,7 +33,7 @@
     "zone.js": "^0.8.19"
   },
   "devDependencies": {
-    "@angular/cli": "~1.7.3",
+    "@angular/cli": "~1.7.4",
     "@angular/compiler-cli": "^5.2.0",
     "@angular/language-service": "^5.2.0",
     "@types/jasmine": "~2.8.3",
